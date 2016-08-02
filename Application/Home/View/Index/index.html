@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<h3>后台</h3>
+		
+			<volist name="res" id="res">
+				<li><a href="/index.php/{$res.name}">{$res.title}</a></li>
+			</volist>
+
+			<li><a href="__MODULE__/Login/des">退出</a></li>
+</body>
+</html>
